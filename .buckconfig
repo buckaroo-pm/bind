@@ -1,9 +1,2 @@
 [project]
   ignore = .git
-
-[repositories]
-  buckaroo.github.buckaroo-pm.boost-assert = ./buckaroo/github/buckaroo-pm/boost-assert
-  buckaroo.github.buckaroo-pm.boost-config = ./buckaroo/github/buckaroo-pm/boost-config
-  buckaroo.github.buckaroo-pm.boost-core = ./buckaroo/github/buckaroo-pm/boost-core
-  buckaroo.github.buckaroo-pm.boost-detail = ./buckaroo/github/buckaroo-pm/boost-detail
-  buckaroo.github.buckaroo-pm.boost-type_traits = ./buckaroo/github/buckaroo-pm/boost-type_traits
