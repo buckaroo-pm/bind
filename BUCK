@@ -1,3 +1,5 @@
+load('//:buckaroo_macros.bzl', 'buckaroo_deps')
+
 prebuilt_cxx_library(
   name = 'bind',
   header_only = True,
@@ -5,11 +7,7 @@ prebuilt_cxx_library(
   exported_headers = subdir_glob([
     ('include/boost', '**/*.hpp'),
   ]),
-  deps = [
-    'buckaroo.github.buckaroo-pm.boost-config//:config', 
-    'buckaroo.github.buckaroo-pm.boost-core//:core', 
-    'buckaroo.github.buckaroo-pm.boost-detail//:detail', 
-  ], 
+  deps = buckaroo_deps(), 
   visibility = [
     'PUBLIC',
   ],

@@ -18,7 +18,7 @@ revision = "cae7816110ba208a2290d02d128594e8809c9075"
 
 [[lock]]
 name = "github.com/buckaroo-pm/boost-config"
-revision = "e60ff9d2778e3d2a6969859783a7c5bcc424f9a2"
+revision = "f2f2d0d85496b72eeff1186518deb7e23c757bfd"
 
 [[lock]]
 name = "github.com/buckaroo-pm/boost-core"
@@ -26,8 +26,8 @@ revision = "10b589cb4aea4ca823237059f104cbfdd09b0f0e"
 
 [[lock]]
 name = "github.com/buckaroo-pm/boost-detail"
-revision = "ed1cc1b88cae7db1148d92e57150d9e103b8b636"
+revision = "94aa5268c1a74468be94b40afd730aea1730ceab"
 
 [[lock]]
 name = "github.com/buckaroo-pm/boost-type_traits"
-revision = "19b9862c93b0796e346876782d217fbc33600c27"
+revision = "a34caf51f831ffb77d1057c668b5db620863d191"
