@@ -1,0 +1,9 @@
+targets = ["//:bind"]
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-config"
+version = "1.33.1"
+
+[[dependency]]
+package = "github.com/buckaroo-pm/boost-detail"
+version = "1.33.1"
